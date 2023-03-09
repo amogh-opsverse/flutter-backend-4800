@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: flutter-backend
+  annotations: 
+    #github.com/project-slug: beachhacks-dev-portal/beach-hacks-github-actions
+spec:
+  type: service
+  lifecycle: experimental
+  owner: amoghshiv99
+  system: flutter-app
